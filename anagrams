@@ -1,0 +1,3 @@
+Rico is writing a list of random words, you task is to remove the words that are an anagram of an earlier word, then print the remaining list in reverse sorted order.
+Input : arr[] = {“tea”, “ate”, “dock”, “eat”, “kocd”}
+Output : [“tea”, "dock"] 
