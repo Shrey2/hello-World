@@ -1,0 +1,6 @@
+Given a list/array of integers, find an index such that the sum of elements at lower indexes is equal to the sum of elements at higher indexes. 
+Input: A[] = {-7, 1, 5, 2, -4, 3, 0} 
+Output: 3 
+Explanation
+A[0] + A[1] + A[2] = A[4] + A[5] + A[6]
+Note - In case there is no such index, return -1
