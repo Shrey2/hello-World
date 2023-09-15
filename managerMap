@@ -1,0 +1,17 @@
+Input table
+
+id,first_name,last_name,manager_id
+1,John,Sten,2
+2,Will,Wick,3
+3,Pick,Stol,5
+4,Yiu,John,5
+5,Mia,Jeany,null
+
+Given the input table as csv, read the data from s3 location using spark and update it to have manager name instead of id, such that 
+  manager name should be a combination of first and last name in lower case and filter out employees with non-null managers
+Output Table
+id,first_name,last_name,manager
+1,John,Sten,will wick
+2,Will,Wick,pick stol
+3,Pick,Stol,mia jeany
+4,Yiu,John,mia jeany
