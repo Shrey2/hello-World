@@ -1,0 +1,6 @@
+Rex is given N coins, with respective valuations.
+You need to help him find the sum of all coins combined in every possible order.
+Note: Order of coins isn't considered unique.
+Input: N=3, {1, 2, 3}
+Output: 20
+Explanation: {1} + {2} + {3} + {2 + 3} + {1 + 2} + {1 + 2 + 3} = 20
