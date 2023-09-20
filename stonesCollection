@@ -1,0 +1,7 @@
+Roni has N stones in front of him, each stone has a number written on it.Roni is given another number A.
+You need to help Roni in finding a set of stones, placed consecutively, such that the sum of values written on those stones equals A.
+If there is no such sequence of stones, return -1.
+Input:
+ N = [1, 2, 3, 4, 5]
+ A = 5
+Output : [2, 3]
